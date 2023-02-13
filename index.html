@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paula Gallo</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-
-
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">    
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/action.css">
+        
 </head>
+
 <body>
-    <header>
-        <img src="Assets/img/logo.png" alt="Avatar da Paula Gallo">
+
+    <header class="header">
+            <img src="Assets/img/logo.png" alt="Avatar da Paula Gallo">
         <nav>
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
-            <a id="button" href="" lang="en">Download CV</a>
+            <a class="action" href="" lang="en">Skills</a>
+            <a class="action" href="">Projetos</a>
+            <a class="action" href="">Sobre</a>
+            <a class="action" href="">Contatos</a>
+            <a class="button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    
+    <section class="banner">
+        <div class="wrapper">
+            <div class="box"> 
+                <h1 class="title">PAULA GALLO</h1>
+                <h2 class="subtitle">FrontEnd Developer</h2>
+            </div>
+
+            <div class="navigation">
+                <a class="button" href="" lang="en">Download CV</a>
+                <a class="button" href="">Contatos</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Minha forma de chegar ao resultado como desafio antes da vídeo aula 
+        <banner>
+        <body background ="Assets/img/backgroung banner.jpg" alt="Fundo em tons de verde com figuras geométricas em dourado">
+        <div id="titulo">PAULA GALLO <p id="subtitulo">FrontEnd Developer</p></div>
+        <a class="button" id="botao_cv" href="" lang="en">Download CV</a>
+        <a class="button" id="botao_contato" href="">Contatos</a>
+    </banner>-->
 </body>
 </html>
