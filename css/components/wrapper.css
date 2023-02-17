@@ -18,3 +18,12 @@
 .wrapper-skill .progress-bar {
     width: 320px;
 }
+
+.wrapper-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 80px;
+
+}
