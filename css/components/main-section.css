@@ -9,13 +9,14 @@
     margin-bottom: 60px;
 }
 
-.section-projects {
+.section-project {
     background-color: #096A59;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #000;
 }
 
-.section-projects .main-title{
+.section-project .main-title{
     margin-bottom: 50px;
 }
+
