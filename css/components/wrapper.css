@@ -22,8 +22,8 @@
 .wrapper-card {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 75px;
-    margin-right: 80px;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
 
 }

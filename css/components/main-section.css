@@ -20,3 +20,8 @@
     margin-bottom: 50px;
 }
 
+.main-section {
+    background-color: #05696F;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #000;
+}
